@@ -4,6 +4,7 @@ import BannerBackground from "../Assets/home-banner-background.png";
 import BannerImage from "../Assets/home-banner-image.png";
 import { FiArrowRight } from "react-icons/fi";
 import "../Styling/Home.css";
+import { Footer } from './Footer';
 
 
 export const Home = () => {
@@ -30,6 +31,8 @@ export const Home = () => {
 			<img src={BannerImage} alt="" />
 		  </div>
 		</div>
+		<Footer></Footer>
 	  </div>
+	  
 	);
-  };
+};
